@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f423972d39704d10a6b9eb379d97b7a, type: 3}
+  m_Name: PlayerBattleIdle
+  m_EditorClassIdentifier: 
+  animations:
+    m_val: 7
+    m_keys: 000000000100000002000000030000000400000005000000
+    m_values:
+    - {fileID: 7400000, guid: 4a18397031ee846ac9958d32ca359ef3, type: 2}
+    - {fileID: 7400000, guid: fa176607c071a4b859d5390569892a92, type: 2}
+    - {fileID: 7400000, guid: 3d2e42dd6a977495cae3ac47d48c7fc1, type: 2}
+    - {fileID: 7400000, guid: b83749f7ace27460e8f070db6b34c087, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}

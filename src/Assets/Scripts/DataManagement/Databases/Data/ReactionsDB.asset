@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872122405e57e4d6982976d492eeaace, type: 3}
+  m_Name: ReactionsDB
+  m_EditorClassIdentifier: 
+  all:
+  - {fileID: 11400000, guid: f853a78535ba44aee9eb4c21dac43d0c, type: 2}
+  - {fileID: 11400000, guid: 32a8960f3048b417ea553ffff5d842ad, type: 2}
+  - {fileID: 11400000, guid: 415ed32d174704d539bb76861901bbdb, type: 2}
+  - {fileID: 11400000, guid: 6b52ee7fceef54a37ae212812d3fdd3c, type: 2}
+  - {fileID: 11400000, guid: 3c46ef4e26397469e8a9d99d21ac77e6, type: 2}
+  - {fileID: 11400000, guid: 9543f3e0cf15b4361a3f027d3ef719ff, type: 2}
+  - {fileID: 11400000, guid: 53671b1b7f81c475d97506b53f8cd7ca, type: 2}
+  - {fileID: 11400000, guid: 61315321e440e43dcae2962386a9ff5f, type: 2}

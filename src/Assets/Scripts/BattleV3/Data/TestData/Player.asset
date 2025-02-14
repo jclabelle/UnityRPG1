@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a95457e4dcedc44bca668439374d697d, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  <Sprite>k__BackingField: {fileID: 0}
+  <Scale>k__BackingField: {x: 1, y: 1, z: 1}
+  <SpriteDefaultFacing>k__BackingField: {x: 0, y: 0}
+  <SpriteAppearsToLookTowards>k__BackingField: 0
+  <InitiativeMaxValue>k__BackingField: 2
+  <Stats>k__BackingField:
+    healthMod: 100
+    staminaMod: 50
+    manaMod: 0
+    phyAtkMod: 1
+    phyDefMod: 1
+    phySpdMod: 1
+    magAtkMod: 1
+    magDefMod: 1
+    magSpdMod: 1
+  <Abilities>k__BackingField:
+  - {fileID: 11400000, guid: db1d81796b47240a9917bb8e3a533277, type: 2}
+  - {fileID: 11400000, guid: 472d6ed273e734a4685bfaa809f2ab22, type: 2}
+  - {fileID: 11400000, guid: fd8985776e8644fe5942f6e957e08b11, type: 2}
+  - {fileID: 11400000, guid: a8c61db86498e49ceb41e375758902cc, type: 2}
+  - {fileID: 11400000, guid: da78cdfa6e9fe48399c3fbdd8ca82319, type: 2}
+  - {fileID: 11400000, guid: afc5c1f244e0c473fa834a54992d96ed, type: 2}
+  - {fileID: 11400000, guid: 5a3a6c4626ee041cdac4939e96722656, type: 2}
+  - {fileID: 11400000, guid: db1d81796b47240a9917bb8e3a533277, type: 2}
+  - {fileID: 11400000, guid: 472d6ed273e734a4685bfaa809f2ab22, type: 2}
+  - {fileID: 11400000, guid: fd8985776e8644fe5942f6e957e08b11, type: 2}
+  - {fileID: 11400000, guid: a8c61db86498e49ceb41e375758902cc, type: 2}
+  - {fileID: 11400000, guid: da78cdfa6e9fe48399c3fbdd8ca82319, type: 2}
+  - {fileID: 11400000, guid: afc5c1f244e0c473fa834a54992d96ed, type: 2}
+  - {fileID: 11400000, guid: 5a3a6c4626ee041cdac4939e96722656, type: 2}
+  - {fileID: 11400000, guid: db1d81796b47240a9917bb8e3a533277, type: 2}
+  - {fileID: 11400000, guid: 472d6ed273e734a4685bfaa809f2ab22, type: 2}
+  - {fileID: 11400000, guid: fd8985776e8644fe5942f6e957e08b11, type: 2}
+  - {fileID: 11400000, guid: a8c61db86498e49ceb41e375758902cc, type: 2}
+  - {fileID: 11400000, guid: da78cdfa6e9fe48399c3fbdd8ca82319, type: 2}
+  - {fileID: 11400000, guid: afc5c1f244e0c473fa834a54992d96ed, type: 2}
+  - {fileID: 11400000, guid: 5a3a6c4626ee041cdac4939e96722656, type: 2}
+  <Reactions>k__BackingField:
+  - {fileID: 11400000, guid: 53671b1b7f81c475d97506b53f8cd7ca, type: 2}
+  - {fileID: 11400000, guid: f853a78535ba44aee9eb4c21dac43d0c, type: 2}
+  - {fileID: 11400000, guid: 9543f3e0cf15b4361a3f027d3ef719ff, type: 2}
+  - {fileID: 11400000, guid: 6b52ee7fceef54a37ae212812d3fdd3c, type: 2}
+  - {fileID: 11400000, guid: 415ed32d174704d539bb76861901bbdb, type: 2}
+  - {fileID: 11400000, guid: 32a8960f3048b417ea553ffff5d842ad, type: 2}
+  <LootTable>k__BackingField:
+    rows: []

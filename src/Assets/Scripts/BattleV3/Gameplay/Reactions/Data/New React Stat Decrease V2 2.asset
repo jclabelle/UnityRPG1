@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c918ea99d869451abbfdd63171d86ee, type: 3}
+  m_Name: New React Stat Decrease V2 2
+  m_EditorClassIdentifier: 
+  effects: []
+  description: 
+  timeline: []
+  icon: {fileID: 0}
+  resourceCost: 0
+  <ReactionWindowDuration>k__BackingField: 0
+  iconGUI: {fileID: 0}
+  matchingEffectClass: {fileID: 11400000, guid: 33328559fddf84faa9168e04a8fa5b33, type: 2}
+  types: 00000000
+  valueModifierStat: 
+  changedStat: 
+  dmgType: 
+  reactionModifierWeak: 0
+  reactionModifierAverage: 0
+  reactionModifierGood: 0
+  reactionModifierGreat: 0
+  reactionModifierPerfect: 0

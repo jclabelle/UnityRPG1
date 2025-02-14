@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f75415df5405048ea808654efab65f47, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  battleEncountersDB: {fileID: 11400000, guid: 3af62feca4d8443efb9fccd57752885f, type: 2}
+  itemsDB: {fileID: 11400000, guid: c069e8b9d4c744e6fb2159b3c693a39d, type: 2}
+  abilitiesDB: {fileID: 11400000, guid: eefe07068dc8c4ac78425873908ad6f5, type: 2}
+  reactionsDB: {fileID: 11400000, guid: 28b73ce27762046349d9664e00435157, type: 2}
+  questsDB: {fileID: 11400000, guid: 719996cd9dc9743599f7f3eb1a036777, type: 2}
+  objectivesDB: {fileID: 11400000, guid: 64bba88bc941f405cb28111c7d958aaf, type: 2}

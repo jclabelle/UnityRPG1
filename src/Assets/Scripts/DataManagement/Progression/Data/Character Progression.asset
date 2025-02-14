@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b362dbb318cba42cd97ca91176a4820a, type: 3}
+  m_Name: Character Progression
+  m_EditorClassIdentifier: 
+  health: 19000000230000002d000000
+  stamina: 19000000230000002d000000
+  physicalAttack: 050000000700000009000000
+  physicalDefense: 050000000700000009000000
+  physicalSpeed: 050000000700000009000000
+  mana: 19000000230000002d000000
+  magicalAttack: 050000000700000009000000
+  magicalDefense: 050000000700000009000000
+  magicalSpeed: 050000000700000009000000
+  firstAbility:
+  - {fileID: 11400000, guid: db1d81796b47240a9917bb8e3a533277, type: 2}
+  - {fileID: 11400000, guid: fd8985776e8644fe5942f6e957e08b11, type: 2}
+  - {fileID: 11400000, guid: f853a78535ba44aee9eb4c21dac43d0c, type: 2}
+  secondAbility:
+  - {fileID: 11400000, guid: 2f3487e46f4524280821ba41efd0eb1c, type: 2}
+  - {fileID: 11400000, guid: 2f3487e46f4524280821ba41efd0eb1c, type: 2}
+  - {fileID: 11400000, guid: 2f3487e46f4524280821ba41efd0eb1c, type: 2}
+  thirdAbility:
+  - {fileID: 11400000, guid: 2f3487e46f4524280821ba41efd0eb1c, type: 2}
+  - {fileID: 11400000, guid: 2f3487e46f4524280821ba41efd0eb1c, type: 2}
+  - {fileID: 11400000, guid: 2f3487e46f4524280821ba41efd0eb1c, type: 2}
+  firstReaction:
+  - {fileID: 11400000, guid: 53671b1b7f81c475d97506b53f8cd7ca, type: 2}
+  - {fileID: 11400000, guid: f853a78535ba44aee9eb4c21dac43d0c, type: 2}
+  - {fileID: 11400000, guid: 9543f3e0cf15b4361a3f027d3ef719ff, type: 2}
+  secondReaction:
+  - {fileID: 11400000, guid: 61315321e440e43dcae2962386a9ff5f, type: 2}
+  - {fileID: 11400000, guid: 61315321e440e43dcae2962386a9ff5f, type: 2}
+  - {fileID: 11400000, guid: 61315321e440e43dcae2962386a9ff5f, type: 2}
+  thirdReaction:
+  - {fileID: 11400000, guid: 61315321e440e43dcae2962386a9ff5f, type: 2}
+  - {fileID: 11400000, guid: 61315321e440e43dcae2962386a9ff5f, type: 2}
+  - {fileID: 11400000, guid: 61315321e440e43dcae2962386a9ff5f, type: 2}

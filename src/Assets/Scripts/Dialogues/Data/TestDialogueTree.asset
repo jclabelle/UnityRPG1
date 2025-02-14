@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e56755643805e4722beb58cf9abd214d, type: 3}
+  m_Name: TestDialogueTree
+  m_EditorClassIdentifier: 
+  allChoices:
+  - traits: 
+    prompt: TRUNK
+    name: Trunk
+    <StoryAction>k__BackingField: {fileID: 0}
+  - traits: 00000000
+    prompt: This is choice 1
+    name: choice1
+    <StoryAction>k__BackingField: {fileID: 0}
+  - traits: 
+    prompt: This is choice 2
+    name: choice 2
+    <StoryAction>k__BackingField: {fileID: 0}
+  - traits: 
+    prompt: This is choice 3
+    name: choice 3
+    <StoryAction>k__BackingField: {fileID: 0}
+  - traits: 
+    prompt: This is choice 4
+    name: choice 4
+    <StoryAction>k__BackingField: {fileID: 0}
+  - traits: 
+    prompt: This is choice 5
+    name: choice 5
+    <StoryAction>k__BackingField: {fileID: 0}
+  - traits: 0200000003000000
+    prompt: This is choice 6. Triggers an action.
+    name: choice 6
+    <StoryAction>k__BackingField: {fileID: 11400000, guid: fe6a32b631c6246efa2adbbddae8e456, type: 2}
+  - traits: 
+    prompt: This is choice 7
+    name: choice 7
+    <StoryAction>k__BackingField: {fileID: 0}
+  allBranches:
+  - dialogue:
+      gameDialogue:
+        lines:
+        - style: 1
+          line: Helllllllllo this is a dialogue line. Line 0 of Trunk.
+          speaker: 
+        - style: 0
+          line: Helllllllllo this is a dialogue line, this time with a Speaker. Line
+            1 of Trunk.
+          speaker: Speakerboy
+    indexesOfChoicesInAllChoices: 0100000002000000
+    indexOfTriggeringChoiceInAllChoices: 0
+  - dialogue:
+      gameDialogue:
+        lines:
+        - style: 1
+          line: Helllllllllo this is a dialogue line. Specifically, line 0 of choice
+            1.
+          speaker: 
+    indexesOfChoicesInAllChoices: 
+    indexOfTriggeringChoiceInAllChoices: 1
+  - dialogue:
+      gameDialogue:
+        lines:
+        - style: 0
+          line: Helllllllllo this is a dialogue line. Specifically, line 0 of choice
+            2.
+          speaker: Speakergirl
+        - style: 0
+          line: Helllllllllo this is a dialogue line. Specifically, line 1 of choice
+            2.
+          speaker: Speakergirl
+        - style: 0
+          line: Helllllllllo this is a dialogue line. Specifically, line 2 of choice
+            2.
+          speaker: Speakergirl
+    indexesOfChoicesInAllChoices: 030000000400000005000000
+    indexOfTriggeringChoiceInAllChoices: 2
+  - dialogue:
+      gameDialogue:
+        lines:
+        - style: 0
+          line: Helllllllllo this is a dialogue line. Specifically, line 0 of choice
+            3.
+          speaker: Speakergirl
+    indexesOfChoicesInAllChoices: 
+    indexOfTriggeringChoiceInAllChoices: 3
+  - dialogue:
+      gameDialogue:
+        lines:
+        - style: 1
+          line: Helllllllllo this is a dialogue line. Specifically, line 0 of choice
+            4.
+          speaker: 
+    indexesOfChoicesInAllChoices: 
+    indexOfTriggeringChoiceInAllChoices: 4
+  - dialogue:
+      gameDialogue:
+        lines:
+        - style: 0
+          line: Helllllllllo this is a dialogue line. Specifically, line 0 of choice
+            5.
+          speaker: Speakergirlll
+    indexesOfChoicesInAllChoices: 0600000007000000
+    indexOfTriggeringChoiceInAllChoices: 5

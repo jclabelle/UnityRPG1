@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c918ea99d869451abbfdd63171d86ee, type: 3}
+  m_Name: Riposte
+  m_EditorClassIdentifier: 
+  effects:
+  - {fileID: 11400000, guid: 4bab9eae0727143f8982aa038269a3ff, type: 2}
+  description: 
+  timeline:
+  - 0
+  icon: {fileID: 0}
+  resourceCost: 10
+  <ReactionWindowDuration>k__BackingField: 0
+  iconGUI: {fileID: 2800000, guid: 06cd57198c1774cd7a8752e8474c4dd1, type: 3}
+  matchingEffectClass: {fileID: 11400000, guid: 33328559fddf84faa9168e04a8fa5b33, type: 2}
+  types: 00000000
+  valueModifierStat: 03000000
+  changedStat: 00000000
+  dmgType: 000000000100000002000000
+  reactionModifierWeak: 0.6
+  reactionModifierAverage: 0.6
+  reactionModifierGood: 0.8
+  reactionModifierGreat: 0.9
+  reactionModifierPerfect: 1

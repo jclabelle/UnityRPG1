@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e19920057fe848d3b9c6e42ea221253, type: 3}
+  m_Name: Village
+  m_EditorClassIdentifier: 
+  randomEncounters: []
+  encounterOdds: 0
+  mapTransitions:
+  - {fileID: 11400000, guid: 351f4f8f2bc3c40adadaa1caaf83c8c5, type: 2}
+  - {fileID: 11400000, guid: 170d8d041535d41bd87aee5f87b508e2, type: 2}
+  music: {fileID: 8300000, guid: a34169cb8ddfe4a97ad83289a67aa32a, type: 3}

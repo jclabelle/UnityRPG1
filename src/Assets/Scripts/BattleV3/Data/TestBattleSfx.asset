@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc428b97bac0f42e0a1205d685973533, type: 3}
+  m_Name: TestBattleSfx
+  m_EditorClassIdentifier: 
+  <Clip>k__BackingField: {fileID: 7400000, guid: 218c62e2e885d4acc8b954484ecc2853, type: 2}
+  <AudioTimelines>k__BackingField:
+  - <Clip>k__BackingField: {fileID: 8300000, guid: cf46df83519b34e559e44e43a2b9baf9, type: 3}
+    <TriggerTime>k__BackingField: 0.5
+  <Movements>k__BackingField:
+  - <Movement>k__BackingField:
+      <LocalPositionOrigin>k__BackingField: {x: 0, y: 0}
+      <LocalPositionDestination>k__BackingField: {x: -0.05, y: -0.05}
+      <Speed>k__BackingField: 1
+      <StopMinimumDistance>k__BackingField: 0
+      <MaximumStepSize>k__BackingField: 0
+      <Duration>k__BackingField: 0.5
+    <TriggerTime>k__BackingField: 0
+  <Materials>k__BackingField: []

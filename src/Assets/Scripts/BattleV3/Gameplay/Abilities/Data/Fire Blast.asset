@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cb3513180c0744e88dd327e83ec0a9f, type: 3}
+  m_Name: Fire Blast
+  m_EditorClassIdentifier: 
+  <SfxSequence>k__BackingField: {fileID: 11400000, guid: 48fc6e10a3ce743ef9baa28088e3ca00, type: 2}
+  description: 
+  timeline:
+  - 0
+  icon: {fileID: 0}
+  resourceCost: 2
+  <BaseReactionWindowDuration>k__BackingField: 1
+  iconGUI: {fileID: 2800000, guid: be530048e2dd24064844871ff87cc279, type: 3}
+  <BaseSuccessProbability>k__BackingField: 1
+  <EffectPowerDict>k__BackingField:
+    m_val: 7
+    m_keys: []
+    m_values: []
+  <MovementType>k__BackingField: 1

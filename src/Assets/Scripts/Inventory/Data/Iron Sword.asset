@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985e36750e35f497d890ee8c255453f6, type: 3}
+  m_Name: Iron Sword
+  m_EditorClassIdentifier: 
+  healthMod: 100
+  staminaMod: 100
+  manaMod: 100
+  phyAtkMod: 100
+  phyDefMod: 100
+  phySpdMod: 100
+  magAtkMod: 100
+  magDefMod: 100
+  magSpdMod: 100
+  abilities: []
+  reactions: []
+  damageMax: 111
+  damageMin: 0
+  dmgType: 0
+  valueBasedOn: 0
+  damagedStat: 0
